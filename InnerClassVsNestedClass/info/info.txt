@@ -1,0 +1,19 @@
+1-inner class non static (member, anonymous , local  )
+i can access priate attribute of outer classes 
+- member is outer methods of outer class
+- anonymous using for impements interface or extend class
+- local unsing into methods of outer class
+
+2-nested class  (static) 
+is general nested 
+mean inner part of nested Class
+3- nested interface 
+
+
+
+JVM make Two file when  
+frist for outer 
+second for inner 
+and in outer have refrence to innner and 
+can't access inner wihout outer 
+ 

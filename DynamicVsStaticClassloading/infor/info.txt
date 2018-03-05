@@ -1,0 +1,27 @@
+In static class loading 
+Classes are statically loaded with Java’s "new" operator. 
+In this case, the retrieval of class definition and instantiation of the object is done at compile time.
+ noclassdevfounderror this excption throws when class not found
+ 
+Dynamic class loading
+Dynamic loading is a technique for programmatically invoking the functions of a class
+loader at run time. Dynamic class loading is done when the name of the class is not
+known at compile time.
+  
+Syntax  
+Class.forName (String className);
+Excption:ClassNotFoundExcption
+---------othre descritption----
+
+Static Class Loading: Creating objects and instance using new keyword is known as static class loading. The retrieval of class definition and instantiation of the object is done at compile time.
+
+Dynamic Class Loading: Loading classes use Class.forName () method. Dynamic class loading is done when the name of the class is not known at compile time
+
+-------------- other desc
+
+Static and Dynamic Class Loading in JAVA
+Static Class Loading: Classes are statically loaded with Java’s “new” operator. NoClassDefFoundException is thrown If a class is available at compile time, but not at run time.
+
+Dynamic Class Loading: Dynamic loading is a technique for programmatically invoking the functions of a class loader at run time using any of the below methods
+Class.forName(String) or ClassLoader.findSystemClass(String) or ClassLoader.loadClass(String). A ClassNotFoundException is thrown if the requested class definition is not found.
+  
